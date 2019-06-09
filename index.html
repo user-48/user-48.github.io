@@ -1,17 +1,34 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 	<head>
 		<meta charset="utf-8">
-		<meta name="robots" content="index,follow">
+		<meta name="robots" content="index, follow">
 		<title>Main</title>
 		<meta name="description" lang="ru" content="Проект создан для образования и саморазвития.">
+		<meta name="keywords" content="превью, анимация, кадр, ключевой кадр">
 		<meta name="author" content="User 48">
+		<style>
+			.button {
+				width: 480px;
+				height: 48px;
+				position: absolute;
+				left: 50%;
+				margin-left: -240px;
+			}
+		</style>
 	</head>
-	<body>
+	<body style="width: 1024px; margin: 0 auto; background: #EEF8F1">
 		<h1 align="center">Проекты</h1>
-		<hr size="4" width="1024" noshade>
-		<h3 align="center">
-			<a href="https://user-48.github.io/keyframe/">Ключевой кадр</a>
-		</h3>
+		<hr size="4" noshade>
+		<form style="margin-top: 48px; margin-bottom: 480px">
+			<input class="button" onclick="javascript:window.location='https://user-48.github.io/keyframe/'" type="button" value="KeyFrame">
+		</form>
+		<hr size="2" width="640" noshade>
+		<footer align="center">
+			<p>
+				<img src="https://image.flaticon.com/icons/svg/25/25231.svg" alt="GitHub" width="32" align="center">
+			</p>
+			Домашняя страница: <a href="https://github.com/user-48/user-48.github.io">GitHub</a>
+		</footer>
 	</body>
 </html>
