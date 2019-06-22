@@ -3,9 +3,25 @@ body {
 	text-align: center;
 }
 
+h1 {
+	font-family: Georgia regular;
+	color: #24292E;
+}
+
+a:visited {
+	color: #992299;
+}
+
+a:hover {
+	background-color: #24292E;
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
 .line {
 	border: 0;
 	background-color: #808080;
+	opacity: 0.2;
 }
 
 .top {
@@ -15,7 +31,7 @@ body {
 
 .bottom {
 	width: 640px;
-	height: 2px;
+	height: 1px;
 }
 
 .indent {
