@@ -4,6 +4,11 @@ body {
 	margin: 0 auto;
 }
 
+p {
+	text-align: justify;
+}
+
 #indent {
 	text-indent: 36px;
+	color: #0000CD;
 }

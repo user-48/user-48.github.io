@@ -18,6 +18,12 @@ a:hover {
 	text-decoration: none;
 }
 
+a:active {
+	background-color: #EEF8F1;
+	color: #FF0000;
+	text-decoration: none;
+}
+
 .line {
 	border: 0;
 	background-color: #808080;
