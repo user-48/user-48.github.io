@@ -1,5 +1,3 @@
-![logo](https://github.com/user-48/user-48.github.io/raw/master/logo.png)
-
 # user-48.github.io
 
 * [Главная страница](https://user-48.github.io/ "Main Page")
