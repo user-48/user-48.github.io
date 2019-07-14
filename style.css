@@ -1,5 +1,5 @@
 body {
-	background: #EEF8F1;
+	background-color: #EEF8F1;
 	text-align: center;
 }
 
@@ -35,11 +35,6 @@ a:active {
 	height: 4px;
 }
 
-.bottom {
-	width: 640px;
-	height: 1px;
-}
-
 .indent {
 	margin-top: 48px;
 	margin-bottom: 480px;
@@ -57,4 +52,9 @@ a:active {
 
 .button:hover {
 	box-shadow: 4px 4px 8px #C0C0C0;
+}
+
+.bottom {
+	width: 640px;
+	height: 1px;
 }

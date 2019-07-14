@@ -1,14 +1,35 @@
 body {
-	background: #F1F8F2;
-	width: 1024px;
-	margin: 0 auto;
+	background-color: #EEF8F1;
 }
 
 p {
 	text-align: justify;
 }
 
-#indent {
-	text-indent: 36px;
+a:visited {
+	color: #992299;
+}
+
+.fond {
+	background-color: #F4FCF6;
+	width: 960px;
+	margin: 0 auto;
+	padding: 8px;
+}
+
+.redline {
+	text-indent: 24px;
+}
+
+.paragraph {
+	background-color: #EEF8F1;
+	margin: 10px;
+	padding: 10px;
 	color: #0000CD;
+	text-indent: 36px;
+	font-style: italic;
+}
+
+.underscore {
+	text-decoration: underline;
 }
