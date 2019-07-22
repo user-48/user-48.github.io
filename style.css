@@ -3,9 +3,27 @@ body {
 	text-align: center;
 }
 
+header {
+	display: block;
+}
+
 h1 {
 	font-family: Georgia regular;
 	color: #24292E;
+}
+
+article {
+	display: block;
+	margin-top: 48px;
+	margin-bottom: 480px;
+}
+
+footer {
+	display: block;
+}
+
+address {
+	margin-top: 10px;
 }
 
 a:visited {
@@ -28,16 +46,13 @@ a:active {
 	border: 0;
 	background-color: #808080;
 	opacity: 0.2;
+	margin-bottom: 0px;
 }
 
 .top {
 	width: 1024px;
 	height: 4px;
-}
-
-.indent {
-	margin-top: 48px;
-	margin-bottom: 480px;
+	margin-top: 30px;
 }
 
 .button {
@@ -57,4 +72,9 @@ a:active {
 .bottom {
 	width: 640px;
 	height: 1px;
+	margin-top: 0px;
+}
+
+.above {
+	margin-top: 10px;
 }

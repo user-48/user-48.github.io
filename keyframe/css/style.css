@@ -2,6 +2,21 @@ body {
 	background-color: #EEF8F1;
 }
 
+article {
+	display: block;
+	background-color: #F4FCF6;
+	width: 960px;
+	margin: 0 auto;
+	padding: 8px;
+}
+
+figcaption {
+	margin-top: 4px;
+	font-size: 92%;
+	font-style: italic;
+	opacity: 0.6;
+}
+
 p {
 	text-align: justify;
 }
@@ -10,26 +25,11 @@ a:visited {
 	color: #992299;
 }
 
-.fond {
-	background-color: #F4FCF6;
-	width: 960px;
-	margin: 0 auto;
-	padding: 8px;
+a:active {
+	color: #FF0000;
+	text-decoration: none;
 }
 
 .redline {
 	text-indent: 24px;
-}
-
-.paragraph {
-	background-color: #EEF8F1;
-	margin: 10px;
-	padding: 10px;
-	color: #0000CD;
-	text-indent: 36px;
-	font-style: italic;
-}
-
-.underscore {
-	text-decoration: underline;
 }
