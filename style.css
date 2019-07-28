@@ -1,29 +1,36 @@
 body {
 	background-color: #EEF8F1;
+	width: 100%;
+	position: absolute;
+	margin: 0;
 	text-align: center;
 }
 
 header {
-	display: block;
+	margin-top: 30px;
 }
 
 h1 {
 	font-family: Georgia regular;
 	color: #24292E;
+	margin: 0;
 }
 
-article {
-	display: block;
-	margin-top: 48px;
-	margin-bottom: 480px;
+hr {
+	border: 0;
+	background-color: #808080;
+	opacity: 0.2;
+	margin-bottom: 0px;
 }
 
-footer {
-	display: block;
+main {
+	height: 480px;
 }
 
-address {
-	margin-top: 10px;
+form {
+	height: 56px;
+	position: relative;
+	top: 48px;
 }
 
 a:visited {
@@ -42,14 +49,7 @@ a:active {
 	text-decoration: none;
 }
 
-.line {
-	border: 0;
-	background-color: #808080;
-	opacity: 0.2;
-	margin-bottom: 0px;
-}
-
-.top {
+.upper {
 	width: 1024px;
 	height: 4px;
 	margin-top: 30px;
@@ -69,12 +69,8 @@ a:active {
 	box-shadow: 4px 4px 8px #C0C0C0;
 }
 
-.bottom {
+.lower {
 	width: 640px;
 	height: 1px;
 	margin-top: 0px;
-}
-
-.above {
-	margin-top: 10px;
 }
