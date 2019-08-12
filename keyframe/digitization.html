@@ -11,6 +11,7 @@
 		<title>Оцифровка и производство</title>
 		<link rel="stylesheet" type="text/css" href="css/style.css">
 		<link rel="stylesheet" type="text/css" href="css/digitization.css">
+		<script src="js/script.js"></script>
 	</head>
 	<body>
 		<div class="fond"></div>
@@ -27,7 +28,9 @@
 					</p>
 					<figure>
 						<!-- Оригинал: 1545x1149 -->
-						<img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Festplatten.jpg" width="448" height="333" alt="Кейс с жёстким диском">
+						<img src="https://upload.wikimedia.org/wikipedia/commons/c/c9/Festplatten.jpg" width="448" height="333" alt="Кейс с жёстким диском" 
+						onmouseover="toolTip('Изображение с сайта: &#171;Википедия&#187;<br>' + 'Статья: &#171;Цифровое кино&#187;')" onmouseout="toolTip()">
+						<div id="floatTip"></div>
 						<figcaption>Жёсткие диски с цифровым кинофильмом в специальном транспортировочном кейсе.</figcaption>
 					</figure>
 					<p>
@@ -40,9 +43,9 @@
 					<header>
 						<h3>Оцифровка и реставрация</h3>
 					</header>
-					<div class="paragraph">
-						Средствами кодировки нельзя передать все прелести кадра на плёнке.
-					</div>
+					<p class="redline">
+						<q>Средствами кодировки нельзя передать все прелести кадра на плёнке.</q>
+					</p>
 					<p class="redline">
 						Это искусство применения технологий. Для оцифровки фильма в качестве исходного материала может фигурировать множество фрагментарных 
 						копий, исходные негативы или их дубликаты (контратипы). Сначала собирают коллекцию из самых лучших фрагментов, а затем все эти кусочки 
@@ -80,11 +83,13 @@
 						«в цифре» без использования киноплёнки, получаются огромные <i>несжатые цифровые файлы</i>. В 2001 году был выпущен первый фильм снятый 
 						<span class="underscore">полностью</span> «на цифру». Исходник среднего голливудского фильма имеет размеры от 5 до 15 Тб. Для удобного 
 						просмотра фильм кодируют, сжимают до нужного размера и разбивают на главы.
-						<ul>
-							<li>Для DVD используют MPEG-2 обычно до 4,37 - 7,95 Гб.</li>
-							<li>Для Blu-ray сжимают в один из двух форматов MPEG-2 или H.264 до 50 Гб.</li>
-							<li>В UHD Blu-ray используют H.265 до 100 Гб.</li>
-						</ul>
+					</p>
+					<ul>
+						<li>Для DVD используют MPEG-2 обычно до 4,37 - 7,95 Гб.</li>
+						<li>Для Blu-ray сжимают в один из двух форматов MPEG-2 или H.264 до 50 Гб.</li>
+						<li>В UHD Blu-ray используют H.265 до 100 Гб.</li>
+					</ul>
+					<p>
 						Концерты и спектакли, как правило, снимают и записывают в формате 1080i. Большое количество сериалов снято в формате 720p.<br>
 						Процесс сжатия, как искусство — совместить оптимальное качество с максимальной скоростью передачи информации.
 					</p>
@@ -94,20 +99,20 @@
 						<h3>Потоковое видео</h3>
 					</header>
 					<p class="redline">
-						Фильм для прокатной версии 720p сжимают до 6 Гб.<br>
+						Средний размер прокатной версии фильма 2K сжат до 80 Гб, 720p сжимают до 6 Гб.<br>
 						На YouTube есть ролики с разрешением 8K.
 					</p>
 				</section>
-				<section>
-					<p>
+				<footer>
+					<p class="redline">
 						Данный материал основан на использовании следующих статей:
-						<ul type="circle">
-							<li>https://www.popmech.ru/technologies/9327-da-prebudet-s-toboy-full-hd-otsifrovka-i-restavratsiya-starykh-filmov</li>
-							<li>https://www.kommersant.ru/doc/1781280</li>
-							<li>https://ru.wikipedia.org/wiki/Цифровое_кино</li>
-						</ul>
 					</p>
-				</section>
+					<ul class="setback" type="circle">
+						<li>https://www.popmech.ru/technologies/9327-da-prebudet-s-toboy-full-hd-otsifrovka-i-restavratsiya-starykh-filmov</li>
+						<li>https://www.kommersant.ru/doc/1781280</li>
+						<li>https://ru.wikipedia.org/wiki/Цифровое_кино</li>
+					</ul>
+				</footer>
 			</article>
 		</main>
 	</body>
