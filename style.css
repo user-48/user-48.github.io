@@ -24,7 +24,7 @@ hr {
 }
 
 main {
-	height: 480px;
+	height: 456px;
 }
 
 form {
@@ -50,8 +50,8 @@ a:active {
 }
 
 .upper {
-	width: 1024px;
-	height: 4px;
+	width: 72%;
+	height: 3px;
 	margin-top: 30px;
 }
 
@@ -70,7 +70,8 @@ a:active {
 }
 
 .lower {
-	width: 640px;
+	width: 48%;
 	height: 1px;
 	margin-top: 0px;
 }
+

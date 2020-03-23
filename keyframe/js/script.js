@@ -32,3 +32,4 @@ function toolTip(msg) {
 		floatTipStyle.display = "none";
 	}
 }
+
